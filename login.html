@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./login.css">
+  <link rel="shortcut icon" href="./imgs/logonationsound.jpg">
+</head>
+
+<body>
+
+  <!-- Simulate a smartphone / tablet -->
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+
+
+
+    <div class="topnav">
+      <div class="image-container">
+        <img src="./imgs/logonationsound.jpg" alt="logo festi" height="48px" width="46.58px">
+      </div>
+      <div id="myLinks">
+        <a href="informations.html">Informations</a>
+        <a href="programme.html">Programme</a>
+        <a href="carte.html">Carte</a>
+        <a href="billeterie.html">Billetterie</a>
+        <a href="faq.html">FAQ</a>
+        <a href="partenaires.html">Partenaires</a>
+        <a href="social.html">Reseaux sociaux</a>
+
+
+      </div>
+      <div class="icon">
+        <a>
+          <i class="fa fa-fw fa-user"></i>
+        </a>
+        <a href="javascript:void(0);" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+
+      </div>
+
+    </div>
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <h2 style="text-align:center">Connectez-vous</h2>
+          <br>
+          <br>
+          <br>
+          <div class="vl">
+            <span class="vl-innertext"></span>
+          </div>
+
+
+
+          <div class="col">
+            <div class="hide-md-lg">
+
+            </div>
+
+            <input type="text" name="username" placeholder="Username" required>
+            <br>
+            <br>
+            <br>
+            <input type="password" name="password" placeholder="Password" required>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Login">
+            <br>
+            <br>
+            <br>
+          </div>
+
+        </div>
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <div class="bottom-container">
+      <div class="row">
+        <div class="col">
+          <a href="#" style="color:white" class="btn">Sign in</a>
+        </div>
+        <div class="col">
+          <a href="#" style="color:white" class="btn">Mot de passe oublié?</a>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+</body>
+
+</html>

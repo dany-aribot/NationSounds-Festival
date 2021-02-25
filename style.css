@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.mobile-container {
+  margin: auto;
+  background-color: black;
+
+  color: white;
+  border-radius: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ff5757;
+  color: black;
+}
+.footer {
+  border-top: 2px solid #ff5757;
+  text-align: center;
+}
+.prog h1 {
+  color: white;
+}
+.faq {
+  color: whi te;
+  text-align: center;
+}
+.active {
+  text-transform: uppercase;
+  font: weight 10px;
+
+  text-align: center;
+}
+
+.faqask {
+  border: solid;
+  border: #ff5757;
+  background-color: #ff5757;
+  color: white;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  font-style: italic;
+  justify-content: space-between;
+}
+.faqask h3 {
+  margin-left: 20px;
+}
+
+/*********************Programme***********************/
+program h1,
+h2 {
+  text-align: center;
+}
+
+#program .prog {
+  color: grey;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#program .first {
+  color: white;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#program .firsthour {
+  color: black;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#program .blockprog {
+  width: 40%;
+  color: white;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgtomato {
+  border: solid;
+  border: #ff5757;
+  background-color: #ff5757;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.prog h1 {
+  text-align: center;
+}
+/******************Carte*****************/
+#mapid {
+  height: 600px;
+  border: 2px solid rgb(58, 58, 58);
+  padding-top: 100px;
+}
+
+.maptitre {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+/*****************SOCIAL******************/
+.twitter {
+  margin-left: 113px;
+}
+
+.insta {
+  margin-left: 245px;
+}
+
+.join1 {
+  color: #ff5757;
+  text-align: center;
+}
+
+.join2 {
+  color: #ff5757;
+  text-align: center;
+  border-top: 1px solid #ff5757;
+  padding-top: 40px;
+}

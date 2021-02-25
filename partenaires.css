@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.mobile-container {
+  margin: auto;
+  background-color: black;
+
+  color: white;
+  border-radius: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ff5757;
+  color: black;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.join p {
+  font-size: 30px;
+  text-align: center;
+  text-transform: italic;
+}
+.infosimportantes h3 {
+  font-size: 15px;
+}
+footer {
+  text-align: center;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+.partenairesimg {
+  text-align: center;
+  border-bottom: 3px solid #ff5757;
+  background: rgb(255, 87, 87);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 87, 87, 1) 0%,
+    rgba(0, 0, 0, 0.6898109585631127) 91%
+  );
+}
+.infosimportantes4 {
+  text-align: center;
+}
+.infosimportantes4 p {
+  font-size: 17px;
+}
+#imgcle {
+  margin-top: -70px;
+  text-align: center;
+}
+.active {
+  text-transform: uppercase;
+  font: weight 10em;
+  color: green;
+  text-align: center;
+}
+.infosimportantes4 p {
+  margin-top: -50px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <title>Plan</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <link rel="stylesheet" href="easy-button.css" />
+  <link rel="stylesheet" href="leaflet-tag-filter-button.css" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="acceuil.html" class="active">Nation Sounds</a>
+    <div id="myLinks">
+      <a href="informations.html">Informations</a>
+      <a href="programme.html">Programme</a>
+      <a href="carte.html">Carte</a>
+      <a href="billeterie.html">Billetterie</a>
+      <a href="faq.html">FAQ</a>
+      <a href="partenaires.html">Partenaires</a>
+      <a href="social.html">Reseaux sociaux</a>
+
+
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <body onload="init()">
+
+
+    <div class="maptitre">
+      <h3>PLAN DU FESTIVAL</h3>
+    </div>
+    <div id="mapid"></div>
+
+    <footer>
+      <div class="footer">
+        <p>Copyright 2021 - Nation Sounds Festival </p>
+
+
+      </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""></script>
+    <script src="./easy-button.js"></script>
+    <script src="./leaflet-tag-filter-button.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+
+
+  </body>
+
+</html>

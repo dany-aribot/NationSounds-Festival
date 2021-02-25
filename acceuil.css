@@ -1,0 +1,211 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  margin: auto;
+  background-color: black;
+
+  color: white;
+  border-radius: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+.container2 {
+  background: url(./imgs/concert.png);
+  margin-top: -25px;
+}
+.lienbordure p {
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+.topnav #myLinks a {
+  display: block;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+
+.topnav .icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ff5757;
+  color: black;
+}
+h1 {
+  font-size: 30px;
+  padding-top: 25px;
+}
+.infosimportantes h3 {
+  font-size: 15px;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+.button {
+  border-radius: 4px;
+  background-color: #ff5757;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 18px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-align: center;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 100px;
+  opacity: 0.56;
+}
+/***************************4PONITS***************************/
+
+.dot1 {
+  height: 25px;
+  width: 25px;
+  background-color: #ff5757;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 100px;
+  opacity: 0.7;
+}
+.infosimportantes {
+  text-align: center;
+}
+
+.lienbordure {
+  border-top: 3px solid #ff5757;
+  margin-top: -30px;
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+.lienbordure p {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+.lienbordure2 {
+  border-bottom: 3px solid #ff5757;
+  border-top: 3px solid #ff5757;
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+.lienbordure2 p {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+.resauxsociaux p {
+  font-style: italic;
+  font-size: 35px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: #ff5757;
+  padding: 20px;
+  font-size: 100px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-twitter {
+  background: transparent;
+  color: #ff5757;
+  padding: 20px;
+  font-size: 100px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-instagram {
+  background: transparent;
+  color: #ff5757;
+  padding: 20px;
+  font-size: 100px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  text-align: center;
+}
+.fb {
+  text-align: center;
+}
+.twit {
+  text-align: center;
+}
+.inst {
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-top: 3px solid #ff5757;
+  margin-bottom: -17px;
+}

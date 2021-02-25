@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="informations.css">
+
+</head>
+
+<body>
+
+  <!-- Simulate a smartphone / tablet -->
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="acceuil.html" class="active">Nation Sounds</a>
+      <div id="myLinks">
+        <a href="informations.html">Informations</a>
+        <a href="programme.html">Programme</a>
+        <a href="carte.html">Carte</a>
+        <a href="billeterie.html">Billetterie</a>
+        <a href="faq.html">FAQ</a>
+        <a href="partenaires.html">Partenaires</a>
+        <a href="social.html">Reseaux sociaux</a>
+
+
+
+
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+    <section class="meteo4">
+      <div class="meteo">
+        <h1>Informations</h1>
+        <h2>
+          Paris
+          <br />
+          Température 23°C
+        </h2>
+        <img src="./imgs/meteo.png" alt="meteo" id="imgmeteo">
+      </div>
+      <hr id="hr">
+      <div class="infosimportantes4">
+        <div class="pannelectricite">
+          <h2>! PANNE D’ELECTRICITE SUR LA SCENE NUMERO 1 ! </h2>
+        </div>
+        <img src="./imgs/cle.png" alt="cle" id="imgcle" style="Width:380px">
+        <p style="color:white;font-style: italic;">La scène numéro 1 a subi une panne d’électricité aujourd’hui à 14h.
+          Nous mettons tout en oeuvre pour réparer le problème. Nous sommes désolés pour la gêne occasionnée.</p>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <footer id="footer5">
+      Copyright 2021 - Nation Sounds Festival </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+
+</body>
+
+</html>

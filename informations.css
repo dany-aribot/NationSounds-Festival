@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  margin: auto;
+  background-color: black;
+
+  color: white;
+  border-radius: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  background: url(./imgs/blocks-image-97.jpg);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ff5757;
+  color: black;
+}
+h1 {
+  font-size: 30px;
+}
+.infosimportantes h3 {
+  font-size: 15px;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+.meteo {
+  text-align: center;
+}
+.infosimportantes4 {
+  text-align: center;
+}
+.infosimportantes4 p {
+  font-size: 17px;
+}
+#imgcle {
+  margin-top: -70px;
+  text-align: center;
+}
+.active {
+  text-transform: uppercase;
+  font: weight 10em;
+  color: green;
+  text-align: center;
+}
+.infosimportantes4 p {
+  margin-top: -50px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-top: 2px solid #9a9a9a;
+  margin-bottom: -17px;
+}

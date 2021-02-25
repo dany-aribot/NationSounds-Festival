@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="acceuil.css">
+  <link rel="shortcut icon" href="./imgs/logonationsound.jpg">
+</head>
+
+<body>
+
+  <!-- Simulate a smartphone / tablet -->
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+
+
+
+    <div class="topnav">
+      <div class="image-container">
+        <img src="./imgs/logonationsound.jpg" alt="logo festi" height="48px" width="46.58px">
+      </div>
+      <div id="myLinks">
+        <a href="informations.html">Informations</a>
+        <a href="programme.html">Programme</a>
+        <a href="carte.html">Carte</a>
+        <a href="billeterie.html">Billetterie</a>
+        <a href="faq.html">FAQ</a>
+        <a href="partenaires.html">Partenaires</a>
+        <a href="social.html">Reseaux sociaux</a>
+
+
+      </div>
+      <div class="icon">
+        <a href="./login.html" onclick="myFunction()">
+          <i class="fa fa-fw fa-user"></i>
+        </a>
+        <a href="javascript:void(0);" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="container2">
+
+      <section class="infosimportantes">
+        <h1>INFORMATIONS IMPORTANTES</h1>
+        <br>
+        <br>
+        <h3> ! PANNE D'ELECTRICITE SUR LA SCENE 1 !</h3>
+        <br>
+
+        <div class='nextprevious' style="text-align:center; margin-top: -28px">
+          <span class="dot1"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button class="button"><span>PLUS D'INFORMATIONS</span></button>
+      </section>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <!-- FIN PREMIERE SECTION-->
+
+      <section class="seconde">
+
+        <div class="lienbordure">
+          <p>BILLETTERIE</p>
+          <input type="image" id="image7" alt="Login" src="./imgs/nextpage.png" height="40px" width="40px">
+        </div>
+        <div class="lienbordure2">
+          <p>Actualités générales</p>
+          <input type="image" id="image8" alt="Login" src="./imgs/nextpage.png" height="40px" width="40px">
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="resauxsociaux">
+      <p>Rejoignez la communauté Nation Sounds !</p>
+    </div>
+    <div>
+      <div class="fb">
+        <a href="#" class="fa fa-facebook"></a>
+      </div>
+      <div class="twit">
+        <a href="#" class="fa fa-twitter"></a>
+      </div>
+      <div class="inst">
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+
+    </section>
+
+    <footer>
+      <div class="footer">
+        <p>Copyright 2021 - Nation Sounds Festival </p>
+
+
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+
+</body>
+
+</html>
